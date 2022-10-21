@@ -1,0 +1,755 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.top_main {
+  background: url(images/main-top.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.hulu_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login_btn {
+  color: #bec0c2;
+  width: 8%;
+  font-size: 15px;
+}
+
+/* top-center */
+.top_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.top_center_para p {
+  color: #1ce783;
+  font-size: 12px;
+  font-weight: 600;
+}
+.top_center_logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 50%;
+}
+.top_center_logos img {
+  width: 200px;
+}
+.para2 h3 {
+  color: white;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+}
+.get_disny_btn {
+  color: black;
+  background-color: #1ce783;
+  border: none;
+  padding: 15px;
+  width: 54%;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px 50px;
+}
+.top_center a {
+  color: white;
+  margin-top: 30px;
+}
+.all_shows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0b0c0f;
+}
+.allshow_tvshow {
+  display: flex;
+  justify-content: space-between;
+}
+.allshow_tvshow img {
+  width: 300px;
+  height: 450px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+.all_show_content {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.all_show_content h4 {
+  color: #1ce783;
+  margin-bottom: 20px;
+}
+.all_show_content h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.all_show_content p {
+  color: #bec0c2;
+  margin-bottom: 20px;
+}
+.tvshow {
+  color: white;
+  position: relative;
+}
+.tvshow p {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  font-size: 12px;
+  z-index: 1;
+}
+.tvshow h3 {
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  z-index: 1;
+  font-size: 22px;
+}
+
+/* live tv section third */
+.live_tv {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+.live_tv h4 {
+  color: #1ce783;
+  margin-bottom: 20px;
+}
+.live_tv h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.live_tv p {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.live_tv a {
+  color: white;
+  font-weight: 600;
+}
+
+/* live sports */
+.sports_live {
+  background-image: url(images/sports-live.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 150vh;
+}
+.sports_contents {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 300px 150px;
+  color: white;
+  margin-bottom: 15px;
+}
+.sports_contents h1 {
+  margin-bottom: 25px;
+}
+.sports_contents p {
+  color: #bec0c2;
+  font-size: 10px;
+}
+.sports_contents a {
+  color: #bec0c2;
+}
+.live_menus {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 50px;
+}
+.live_menus li {
+  font-size: 14px;
+  font-weight: 600;
+  color: #bec0c2;
+  cursor: pointer;
+}
+
+.live_menus li:first-child {
+  color: white;
+  border-bottom: 4px solid white;
+}
+.logo_channels {
+  margin: 25px 0;
+}
+.logo_channels img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 15px;
+}
+ul {
+  list-style: none;
+}
+
+/* plan selection */
+
+.container {
+  background-color: black;
+  width: 100%;
+  height: 1350px;
+  padding-top: 20px;
+}
+
+.wraper {
+  width: 75%;
+  margin: auto;
+}
+.selection_title_section {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  /* border-bottom: 1px solid gray; */
+}
+.selection_title_section h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.selection_title_section p:first-child {
+  font-size: 18px;
+  font-weight: 400;
+}
+.selection_title_section p:last-child {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.base_plan_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* border-bottom: 1px solid gray; */
+}
+.base_btn {
+  position: relative;
+  margin-top: 70px;
+}
+.base_btn h1 {
+  font-size: 14px;
+  color: white;
+}
+.base_btn p {
+  color: #1ce783;
+  font-size: 15px;
+  font-weight: 600;
+}
+.base_btn i {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: -5px;
+  left: 100px;
+}
+.disnyy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.disnyy p {
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1ce783;
+}
+.bundle {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.bundle h1 {
+  font-size: 14px;
+  color: white;
+}
+.most_pop_btn {
+  width: 150px;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  background-color: #1ce783;
+  border: none;
+}
+.per_mnth {
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 270px;
+}
+.most_popular_section {
+  text-align: center;
+  margin-left: 50px;
+}
+.most_popular_section h1 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bec0c2;
+  text-align: center;
+}
+.most_popular_section p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.no_ads_section {
+  text-align: center;
+  background-color: #272c34;
+  height: 220px;
+}
+.no_ads_section h1 {
+  margin-top: 70px;
+  font-size: 14px;
+  color: #bec0c2;
+  text-align: center;
+}
+.no_ads_section p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.monthly_price {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12px;
+  /* border-bottom: 1px solid gray; */
+}
+.monthly_price p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.prices_most {
+  margin-left: 270px;
+}
+.prices_noads {
+  padding-top: 40px;
+  background-color: #272c34;
+  height: 100px;
+  width: 296px;
+  text-align: center;
+}
+.streaming {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.stream_i {
+  margin-left: 70px;
+}
+.stream p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.streaming i {
+  color: #1ce783;
+  font-size: 30px;
+}
+
+.check_last {
+  background-color: #272c34;
+  height: 100px;
+  width: 296px;
+  text-align: center;
+  margin-right: 12px;
+  padding-top: 12px;
+}
+.hr {
+  width: 98.7%;
+  border: 1px solid lightgray;
+}
+/* before footer
+ */
+.extra {
+  color: white;
+  padding: 15px;
+}
+.extra p {
+  font-size: 10px;
+  padding-bottom: 40px;
+  padding-left: 13%;
+}
+.show-addons {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.show-addons i {
+  font-size: 25px;
+}
+.hr_btm {
+  width: 73%;
+  border: 1px solid lightgray;
+  margin: auto;
+}
+
+/* footer */
+.footer {
+  background-color: #e8eaed;
+  height: auto;
+  padding: 4% 10%;
+}
+.footer_wraper {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.footer_wraper ul {
+  list-style: none;
+}
+.footer_wraper li {
+  padding: 5px;
+  cursor: pointer;
+}
+.footer_wraper p {
+  padding: 5px;
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+}
+.hr_btm2 {
+  width: 100%;
+  border: 1px solid lightgray;
+  margin: auto;
+}
+/* copyright section */
+.footer_bottom_section {
+  margin-top: 40px;
+  color: gray;
+}
+.footer_icons i {
+  margin-bottom: 30px;
+  margin-right: 25px;
+  color: #5e6573;
+  font-size: 20px;
+  cursor: pointer;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.copyright p {
+  font-size: 14px;
+}
+.sitemap {
+  margin-bottom: 30px;
+}
+.sitemap p {
+  font-size: 14px;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .top_main {
+    width: 100%;
+  }
+  .hulu_logo {
+    width: 100%;
+    padding: 0px 10px;
+    /* background-color: red; */
+  }
+
+  .hulu_logo img {
+    width: 54%;
+    /* background-color: yellowgreen; */
+  }
+  .login_btn {
+    color: #bec0c2;
+    width: 100%;
+    font-size: 55px;
+    /* background-color: blue; */
+    padding-left: 20px;
+  }
+  .top_center_para {
+    display: none;
+  }
+  .top_center {
+    margin-top: 0;
+  }
+  .top_center_logos img {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .get_disny_btn {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .all_shows {
+    height: auto;
+    width: 100%;
+  }
+  .all_show_content {
+    display: none;
+  }
+  .allshow_tvshow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .tvshow p {
+    padding-left: 20px;
+  }
+  .tvshow h3 {
+    padding-left: 20px;
+  }
+  .tvshow img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.7;
+  }
+  .para2 {
+    display: none;
+  }
+  .live_tv {
+    display: none;
+  }
+
+  /* live sports */
+  .sports_live {
+    background-image: url(images/sports-live.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+  }
+  .sports_contents {
+    margin-left: 50px;
+    margin-top: 26px;
+  }
+  .sports_contents h1 {
+    display: none;
+  }
+  .sports_contents p {
+    display: none;
+  }
+  .sports_contents a {
+    color: #bec0c2;
+  }
+  .live_menus {
+    width: 50%;
+    margin-bottom: 30px;
+    background-color: red;
+  }
+  .live_menus li {
+    font-size: 11px;
+    color: #bec0c2;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .live_menus li:first-child {
+    color: white;
+    border-bottom: 4px solid white;
+  }
+  .logo_channels {
+    margin: 25px 0;
+  }
+  .logo_channels img {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .container {
+    background-color: black;
+    width: 100%;
+    height: 1350px;
+  }
+  .wraper {
+    width: 100%;
+  }
+  .base_plan_section {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  .base_btn {
+    width: 20%;
+    position: relative;
+    margin-left: 30px;
+  }
+  .base_btn h1 {
+    font-size: 10px;
+    color: white;
+  }
+  .base_btn p {
+    color: #1ce783;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .base_btn i {
+    color: white;
+    font-size: 12px;
+    top: 20px;
+    left: 40px;
+  }
+
+  .disnyy {
+    display: none;
+  }
+  .disnyy p {
+    font-size: 8px;
+    color: #1ce783;
+  }
+  .bundle {
+    display: none;
+  }
+
+  .most_pop_btn {
+    width: 80px;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    background-color: #1ce783;
+    border: none;
+  }
+  .per_mnth {
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 120px;
+  }
+  .most_popular_section {
+    width: 70%;
+    text-align: center;
+  }
+  .most_popular_section h1 {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #bec0c2;
+    text-align: center;
+  }
+  .most_popular_section p {
+    margin-top: 15px;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  .no_ads_section {
+    width: 60%;
+    text-align: center;
+    background-color: #272c34;
+  }
+  .no_ads_section h1 {
+    margin-top: 80px;
+    font-size: 10px;
+    color: #bec0c2;
+    text-align: center;
+  }
+  .no_ads_section p {
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  .monthly_price {
+    width: 100%;
+  }
+  .monthly_price p {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .prices_most {
+    margin-left: 90px;
+    text-align: center;
+  }
+  .prices_noads {
+    width: 205px;
+    background-color: #272c34;
+    color: white;
+    margin-left: 30px;
+  }
+
+  .streaming {
+    color: white;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+  }
+
+  .streaming p {
+    font-size: 12px;
+    width: 50%;
+    margin-left: 30px;
+  }
+  .streaming i {
+    color: #1ce783;
+    font-size: 20px;
+    text-align: center;
+  }
+  .stream_i {
+    margin-left: -80px;
+  }
+  .stream_ii {
+    margin-left: -130px;
+  }
+  .check_last {
+    background-color: #272c34;
+    height: 100px;
+    width: 33%;
+    text-align: center;
+    padding-top: 38px;
+    /* margin-left: 20px; */
+  }
+}
